@@ -7,7 +7,7 @@ const phrases = [
 
 const goodBye = "До побачення, радий був поспілкуватися!";
 let str;
-label: while (true) {
+while (true) {
   str = prompt("Ваше запитання");
   if (str === "До побачення" || str === "!" || str === "") {
     alert(goodBye);
