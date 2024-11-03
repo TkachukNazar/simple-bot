@@ -9,7 +9,7 @@ const goodBye = "До побачення, радий був поспілкува
 let str;
 while (true) {
   str = prompt("Ваше запитання");
-  if (str === "До побачення" || str === "!" || str === "") {
+  if (str === "До побачення" || str === "!" || str === "" || !str) {
     alert(goodBye);
     break;
   } else {
